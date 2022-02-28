@@ -1,0 +1,4 @@
+python main.py --type all --authentication-address http://127.0.0.1:5002 --jwt-secret JWT_SECRET_KEY --roles-field roles --administrator-role admin --user-role user --administrator-address http://127.0.0.1:5003 --station-address http://127.0.0.1:5004 --with-authentication
+ 
+ [{'id': 209, 'name': 'IndividualA'}, {'id': 210, 'name': 'IndividualB'}, {'id': 211, 'name': 'IndividualC'}],
+ [{'id': 209, 'name': 'IndividualA', 'individual': True}, {'id': 210, 'name': 'IndividualB', 'individual': True}, {'id': 211, 'name': 'IndividualC', 'individual': True}].
